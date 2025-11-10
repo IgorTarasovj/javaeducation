@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class TextBoxTest {
 
     @BeforeAll
-    static void openUrl(){
+    static void configurateBrowse(){
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadTimeout = 300000;
     }
